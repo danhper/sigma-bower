@@ -1,0 +1,23 @@
+{
+  "name": "sigma.js",
+  "version": "1.0.3",
+  "authors": [
+    "Atelier Iceberg <alexis.jacomy@gmail.com>"
+  ],
+  "description": "A JavaScript library dedicated to graph drawing.",
+  "main": "sigma.min.js",
+  "keywords": [
+    "sigma",
+    "graph"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jacomyal/sigma.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".components",
+    "test",
+    "tests"
+  ]
+}
