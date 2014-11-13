@@ -5,7 +5,20 @@
     "Atelier Iceberg <alexis.jacomy@gmail.com>"
   ],
   "description": "A JavaScript library dedicated to graph drawing.",
-  "main": "sigma.min.js",
+  "main": [
+    "sigma.min.js",
+    "plugin/sigma.layout.forceAtlas2.min.js",
+    "plugin/sigma.parsers.gexf.min.js",
+    "plugin/sigma.parsers.json.min.js",
+    "plugin/sigma.plugins.animate.min.js",
+    "plugin/sigma.plugins.dragNodes.min.js",
+    "plugin/sigma.plugins.filter.min.js",
+    "plugin/sigma.plugins.neighborhoods.min.js",
+    "plugin/sigma.renderers.customEdgeShapes.min.js",
+    "plugin/sigma.renderers.customShapes.min.js",
+    "plugin/sigma.renderers.edgeLabels.min.js",
+    "plugin/sigma.statistics.HITS.min.js"
+  ],
   "keywords": [
     "sigma",
     "graph"
